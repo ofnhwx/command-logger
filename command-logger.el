@@ -49,3 +49,5 @@
   (advice-remove 'call-process  #'command-logger--call-process))
 
 (provide 'command-logger)
+
+;;; command-logger.el ends here
